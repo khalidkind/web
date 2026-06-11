@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Transactions;
-use App\Models\Locations;
-use App\Models\Vehicletypes;
+use App\Models\transactions;
+use App\Models\locations;
+use App\Models\vehicletypes;
 use Carbon\Carbon;
 use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Support\Facades\Storage;
